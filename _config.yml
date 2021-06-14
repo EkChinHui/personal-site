@@ -29,6 +29,8 @@ sass:
   sass_dir: assets/scss
   style: compressed
 
+exclude: [vendor]
+
 # Exclude from processing.
 exclude:
   - Gemfile
@@ -36,4 +38,3 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
-  - [vendor]
