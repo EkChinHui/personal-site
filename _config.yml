@@ -30,9 +30,10 @@ sass:
 
 # Exclude from processing.
 exclude:
+  - vendor/
   - Gemfile
   - Gemfile.lock
   - LICENSE.text
   - README.md
   - SECURITY.md
-  - [vendor]
+
