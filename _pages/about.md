@@ -5,7 +5,7 @@ author: Ek Chin Hui
 image: assets/images/about/ek-chin-hui.jpg
 ---
 
-I am a Computer Science Student currently enrolled in National University of Singapore. I am an explorer at heart and venture into a wide range of topics, fields and technologies, meaning there is little that doesn't pique my interest. In my curiosity, I have dabbled in web development, machine learning, hardware projects, pixel art, game development and much more to come (find them [here](/portfolio)).
+I am a Computer Science Student currently enrolled in National University of Singapore. I am an explorer at heart and venture into a wide range of topics, fields and technologies, meaning there is little that doesn't pique my interest. In my curiosity, I have dabbled in web development, machine learning, hardware projects, pixel art, game development and much more to come (find them [here](/personal-site/portfolio)).
 
 > A jack of all trades is a master of none, but oftentimes better than a master of one
 
