@@ -1,6 +1,6 @@
 ## Portfolio Website
 
-Portfolio website done using the Kross jekyll template with some modifications to improve responsiveness and to fit my use case. Access the site [here](http://ekchinhui.github.com/personal-site).
+Portfolio website done using the Kross jekyll template with some modifications to improve responsiveness and to fit my use case. Access the site [here](https://ekchinhui.github.io/personal-site).
 
 ## Motivation
 
