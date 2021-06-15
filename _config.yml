@@ -1,7 +1,6 @@
 baseurl: "/personal-site" # the subpath of your site, e.g. /blog
 url: "https://ekchinhui.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-
 # Build settings
 markdown: kramdown
 permalink: pretty
@@ -15,7 +14,12 @@ compress_html:
 # Pages Path
 defaults:
   - scope:
-      path: '_pages'
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: "_pages"
     values:
       permalink: /:basename:output_ext
 
@@ -26,8 +30,6 @@ sass:
   sass_dir: assets/scss
   style: compressed
 
-
-
 # Exclude from processing.
 exclude:
   - vendor/
@@ -37,3 +39,6 @@ exclude:
   - README.md
   - SECURITY.md
 
+collections:
+  projects:
+    output: true

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Social Census
-# date:   2017-05-26 15:05:55 +0300
 image:  /assets/images/portfolio/the-social-census.png
 tech_stack: 
 - Figma

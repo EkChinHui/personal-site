@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Fall Detection Machine Learning Project
-# date:   2017-05-26 15:05:55 +0300
 image:  /assets/images/portfolio/fall-detection.jpg
 tech_stack: 
 - Python

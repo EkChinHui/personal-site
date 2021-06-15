@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<!-- page title -->
+<section class="page-title bg-primary position-relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="text-white font-tertiary">{{ page.title }}</h1>
+            </div>
+        </div>
+    </div>
+    <!-- background shapes -->
+    <img src="{{ site.baseurl }}/assets/images/illustrations/page-title.png" alt="illustrations"
+        class="bg-shape-1 w-100">
+    <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-pink-round.png" alt="illustrations"
+        class="bg-shape-2">
+    <img src="{{ site.baseurl }}/assets/images/illustrations/dots-cyan.png" alt="illustrations" class="bg-shape-3">
+    <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-orange.png" alt="illustrations" class="bg-shape-4">
+    <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-yellow.png" alt="illustrations" class="bg-shape-5">
+    <img src="{{ site.baseurl }}/assets/images/illustrations/dots-group-cyan.png" alt="illustrations"
+        class="bg-shape-6">
+    <img src="{{ site.baseurl }}/assets/images/illustrations/leaf-cyan-lg.png" alt="illustrations" class="bg-shape-7">
+</section>
+<!-- /page title -->
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="content d-flex flex-column justify-content-center">
+                <div class="thumbnail align-self-center"
+                    style="height: 300px; width: 300px; background-image: url('{{page.image | relative_url }}'); background-size: contain; display: inline-block; background-repeat: no-repeat; background-position: center center;">
+                </div>
+                <div class="p-3">
+                    {{ content }}
+                </div>
+                <div class="extra-info d-flex flex-row justify-content-around text-center mt-5">
+                    <div class="tech-stack">
+                        <h5 class="mb-2">Tech Stack</h5>
+                        <ul class="mb-2 p-0">
+                            {% for tech in page.tech_stack %}
+                            <li class="mb-1">{{tech}}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="links">
+                        {% if page.links %}
+                        <h5 class="mb-2">Links</h5>
+                        <ul class="mb-2 p-0">
+                            {% for link in page.links %}
+                            <li class="mb-1"><a href="{{link.url | relative_url}}" target="_blank">{{link.name}}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

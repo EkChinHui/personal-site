@@ -6,7 +6,6 @@ Portfolio website done using the Kross jekyll template with some modifications t
 
 Have been planning/procrastinating on 'making my own website' for a while now having tried to make one with react and even plain html/css. I realised what took so long was having to constantly focus on design and how the site looks. This is particularly distracting while trying to learn a new framework like react, trying to do both design and the actual structure of the page. Using this template has definitely helped while also letting me learn more about how jekyll works. Might create my own template in the future...
 
-
 ## Tech/framework used
 
 - Jekyll
