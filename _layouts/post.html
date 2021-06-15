@@ -26,10 +26,13 @@ layout: default
     <div class="row">
       <div class="content d-flex flex-column justify-content-center">
         <div class="thumbnail align-self-center"
-          style="height: 500px; width: 500px; background-image: url('{{page.image | relative_url }}'); background-size: contain; display: inline-block; background-repeat: no-repeat; background-position: center center;">
+          style="height: 300px; width: 300px; background-image: url('{{page.image | relative_url }}'); background-size: contain; display: inline-block; background-repeat: no-repeat; background-position: center center;">
           <!-- <img src="{{page.image | relative_url }}" class="img-fluid rounded mr-5 mb-4" alt="{{page.title}}"> -->
         </div>
-        {{ content }}
+        <div class="p-5">
+          {{ content }}
+
+        </div>
         <div class="extra-info d-flex flex-row justify-content-around text-center mt-5">
           <div class="tech-stack">
             <h5 class="mb-2">Tech Stack</h5>

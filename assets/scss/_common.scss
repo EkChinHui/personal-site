@@ -1,3 +1,7 @@
+* {
+  overflow-x: hidden;
+}
+
 body {
   background-color: $body-color;
   overflow-x: hidden;
@@ -196,6 +200,10 @@ a:hover {
 
 .bg-dark{
   background-color: #222222 !important;
+}
+
+.page-title {
+  overflow-y: hidden;
 }
 
 /* icon */
