@@ -6,8 +6,8 @@ image:  /assets/images/portfolio/til-kingdom-come.png
 tech_stack: 
 - Unity Engine (C#)
 
-Links:
-- {name: Repo, link: "https://github.com/wenhaogoh/Til-Kingdom-Come"}
+links:
+- {name: Repo, url: "https://github.com/wenhaogoh/Til-Kingdom-Come"}
 ---
 
 **Til Kingdom Come is a free-to-play, 2D medieval fighting game that puts a spin on the timeless street fighter genre.**

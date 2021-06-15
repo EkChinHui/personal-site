@@ -7,11 +7,11 @@ tech_stack:
 - Figma
 - React
 
-Links:
-- {name: Repo, link: "https://github.com/wenhaogoh/hack4good2021"}
-- {name: Site, link: "https://thesocialcensus.netlify.app/"}
-- {name: Figma Prototype, link: "https://www.figma.com/proto/GAljyGCH8K8ykz724GT8OG/The-social-census?node-id=1%3A3&scaling=min-zoom"}
-- {name: Pitch, link: "https://youtu.be/YslBGf1aof4?t=3310"}
+links:
+- {name: Repo, url: "https://github.com/wenhaogoh/hack4good2021"}
+- {name: Site, url: "https://thesocialcensus.netlify.app/"}
+- {name: Figma Prototype, url: "https://www.figma.com/proto/GAljyGCH8K8ykz724GT8OG/The-social-census?node-id=1%3A3&scaling=min-zoom"}
+- {name: Pitch, url: "https://youtu.be/YslBGf1aof4?t=3310"}
 ---
 
 **A question-and-answer platform which provokes thought and discussion about

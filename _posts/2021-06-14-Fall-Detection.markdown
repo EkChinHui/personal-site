@@ -8,9 +8,9 @@ tech_stack:
 - Tensorflow
 - Keras
 
-Links:
-- {name: Repo, link: "https://github.com/maxxyh/fall-detection-CS3244"}
-- {name: Research Paper, link: "https://drive.google.com/file/d/16-YmFAYrLryqqvHXoJ6S6IPlZP9e7IGg/view?usp=sharing"}
+links:
+- {name: Repo, url: "https://github.com/maxxyh/fall-detection-CS3244"}
+- {name: Research Paper, url: "/assets/files/CS3244_Group_4_Project.pdf"}
 ---
 
 **This project uses pose detection to detect falls in real-time in hopes of being applied to sectors such as healthcare.**
